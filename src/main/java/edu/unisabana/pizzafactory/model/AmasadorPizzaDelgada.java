@@ -6,18 +6,16 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author cesarvefe
+ * @author cesarvefe , andersonlopez
  */
-public class AmasadorPizzaDelgada {
+public class AmasadorPizzaDelgada implements AmasadorPizza {
 
-    
-    
-    public void amasar() {
-        Logger.getLogger(AmasadorPizzaDelgada.class.getName())
-                .log(Level.INFO, "[@@] Amasando la pizza delgada con masa convencional.");
-        
-        //CODIGO DE LLAMADO AL MICROCONTROLADOR
-        
-    }
-    
+  public void amasar() {
+    Logger.getLogger(AmasadorPizzaDelgada.class.getName())
+        .log(Level.INFO, "[@@] Amasando la pizza delgada con masa convencional.");
+
+    // CODIGO DE LLAMADO AL MICROCONTROLADOR
+
+  }
+
 }
