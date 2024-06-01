@@ -5,12 +5,11 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author andersonlopez
+ * @author ferney trujillo
  */
 public class AmasadorPizzaGruesa implements AmasadorPizza {
   public void amasar() {
     Logger.getLogger(AmasadorPizzaGruesa.class.getName())
-        .log(Level.INFO, "[@@] Amasando la pizza gruesa con masa convencional.");
-    // CODIGO DE LLAMADO AL MICROCONTROLADOR
+        .log(Level.INFO, "[@@] Amasando la pizza gruesa con masa convencional.");    
   }
 }

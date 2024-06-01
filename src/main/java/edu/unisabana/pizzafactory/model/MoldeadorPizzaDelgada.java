@@ -28,7 +28,14 @@ public class MoldeadorPizzaDelgada implements MoldeadorPizza {
     } else if (tamano == Tamano.MEDIANO) {
       Logger.getLogger(MoldeadorPizzaDelgada.class.getName())
           .log(Level.INFO, "[O] Moldeando pizza mediana de masa convencional.");
+    }  else if (tamano == Tamano.GRUESA) {
+      Logger.getLogger(MoldeadorPizzaDelgada.class.getName())
+          .log(Level.INFO, "[O] Moldeando pizza mediana de masa convencional.");
     }
+
+
+
+
     // CODIGO DE LLAMADO AL MICROCONTROLADOR
   }
 }

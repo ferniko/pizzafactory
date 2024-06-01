@@ -26,7 +26,12 @@ public class MoldeadorPizzaGruesa implements MoldeadorPizza {
     } else if (tamano == Tamano.MEDIANO) {
       Logger.getLogger(MoldeadorPizzaGruesa.class.getName())
           .log(Level.INFO, "[O] Moldeando pizza mediana de masa gruesa.");
-    }
-    // CODIGO DE LLAMADO AL MICROCONTROLADOR
-  }
+    }else if (tamano == Tamano.GRUESA) {
+      Logger.getLogger(MoldeadorPizzaGruesa.class.getName())
+          .log(Level.INFO, "[O] Moldeando pizza gruesa de masa gruesa.");
+    }else if (tamano == Tamano.GRUESA) {
+        Logger.getLogger(MoldeadorPizzaGruesa.class.getName())
+            .log(Level.INFO, "[O] Moldeando pizza gruesa de masa gruesa.>>>>>>>>");
+        }
+      }
 }

@@ -35,14 +35,14 @@ public class PreparadorPizza {
 
       // Ejemplo con masa gruesa
       System.out.println();
-      System.out.println("**********EJEMPLO CON MASA GRUESA**********");
+      System.out.println("IMPEMENTACION CON MASA GRUESA");
       FabricaPizza fabrica = new FabricaPizzaMasaGruesa();
       Pizza pizza = new Pizza(ingredientes, Tamano.MEDIANO, fabrica);
       pizza.preparar();
 
       // Ejemplo con masa integral
       System.out.println();
-      System.out.println("**********EJEMPLO CON MASA INTEGRAL**********");
+      System.out.println("IMPELMENTACION CON MASA INTEGRAL");
       FabricaPizza fabricaIntegral = new FabricaPizzaMasaIntegral();
       Pizza pizzaIntegral = new Pizza(ingredientes, Tamano.PEQUENO, fabricaIntegral);
       pizzaIntegral.preparar();
